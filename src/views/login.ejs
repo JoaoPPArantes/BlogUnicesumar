@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Login</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <h1>Login</h1>
+    <form action="/login" method="POST">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="senha">Senha:</label>
+      <input type="password" id="senha" name="senha" required />
+
+      <button type="submit">Login</button>
+      <button type="button" onclick="window.location.href='/forgot-password'">
+        Esqueci a senha
+      </button>
+    </form>
+  </body>
+</html>
